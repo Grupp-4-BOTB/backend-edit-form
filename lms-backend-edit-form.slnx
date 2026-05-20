@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="lms-backend-edit-form.API/lms-backend-edit-form.API.csproj" />
+  <Project Path="lms-backend-edit-form.Application/lms-backend-edit-form.Application.csproj" />
+  <Project Path="lms-backend-edit-form.Domain/lms-backend-edit-form.Domain.csproj" />
+  <Project Path="lms-backend-edit-form.Infrastructure/lms-backend-edit-form.Infrastructure.csproj" />
+</Solution>

@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <RootNamespace>lms_backend_edit_form.Application</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\lms-backend-edit-form.Domain\lms-backend-edit-form.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="DTOs\" />
+    <Folder Include="Interfaces\" />
+    <Folder Include="UseCases\GetProfile\" />
+    <Folder Include="UseCases\UploadPhoto\" />
+    <Folder Include="UseCases\UpdateProfile\" />
+  </ItemGroup>
+
+</Project>

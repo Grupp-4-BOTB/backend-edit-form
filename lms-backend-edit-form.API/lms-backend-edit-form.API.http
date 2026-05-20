@@ -1,0 +1,6 @@
+@lms_backend_edit_form.API_HostAddress = http://localhost:5068
+
+GET {{lms_backend_edit_form.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
